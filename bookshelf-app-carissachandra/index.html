@@ -8,6 +8,7 @@
     <!-- Impor script kamu di sini -->
     <!-- Lampirkan `defer` jika pemanggilan dilakukan dalam <head> -->
     <script defer src="main.js"></script>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <header>
@@ -18,19 +19,19 @@
       <section>
         <h2>Tambah Buku Baru</h2>
         <form id="bookForm" data-testid="bookForm">
-          <div>
+          <div class="form-div">
             <label for="bookFormTitle">Judul</label>
-            <input id="bookFormTitle" type="text" required data-testid="bookFormTitleInput" />
+            <input id="bookFormTitle" type="text" required data-testid="bookFormTitleInput" placeholder="Nama Judul Buku" />
           </div>
-          <div>
+          <div class="form-div">
             <label for="bookFormAuthor">Penulis</label>
-            <input id="bookFormAuthor" type="text" required data-testid="bookFormAuthorInput" />
+            <input id="bookFormAuthor" type="text" required data-testid="bookFormAuthorInput" placeholder="Nama Penulis"/>
           </div>
-          <div>
+          <div class="form-div">
             <label for="bookFormYear">Tahun</label>
-            <input id="bookFormYear" type="number" required data-testid="bookFormYearInput" />
+            <input id="bookFormYear" type="number" required data-testid="bookFormYearInput" placeholder="Tahun Terbit"/>
           </div>
-          <div>
+          <div class="form-div-check">
             <label for="bookFormIsComplete">Selesai dibaca</label>
             <input
               id="bookFormIsComplete"
