@@ -131,36 +131,46 @@ label {
 .btn-edit {
     padding: 8px;
     margin-inline-end: 4px;
-    border-color: transparent;
     border-radius: 8px;
 }
 
 .btn-isComplete {
-    background-color: #83ff40;
+    background-color: white;
     color: #1d5400;
+    border-color: #1d5400;
 }
 
 .btn-isComplete:hover {
     background-color: #1d5400;
-    color: #83ff40;
+    color: white;
 }
 
 .btn-delete {
-    background-color: #ffc7c7;
+    background-color: white;
     color: #bf0000;
+    border-color: #bf0000;
 }
 
 .btn-delete:hover {
     background-color: #bf0000;
-    color: #ffc7c7;
+    color: white;
 }
 
 .btn-edit {
     background-color: white;
     color: #1590ed;
+    border-color: #1590ed;
 }
 
 .btn-edit:hover {
     background-color: #1590ed;
     color: white;
+}
+
+.bookList {
+    background-color: white;
+    padding: 8px;
+    border-radius: 8px;
+    border-color: #1590ed;
+    margin-bottom: 8px;
 }
