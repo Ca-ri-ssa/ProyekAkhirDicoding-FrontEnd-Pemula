@@ -105,10 +105,62 @@ input[type=number]  {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
+    align-items: baseline;
+    gap: 20px;
 }
 
 #searchBook input[type="text"] {
-    padding-inline: 30px;
     width: 100%;
+    margin-bottom: 0;
+}
+
+#searchBook button {
+    border-radius: 8px;
+    color: white;
+    border-color: transparent;
+    background-color: #1590ed;
+    padding: 8px 16px;
+}
+
+label {
+    font-size: 18px;
+}
+
+.btn-isComplete,
+.btn-delete,
+.btn-edit {
+    padding: 8px;
+    margin-inline-end: 4px;
+    border-color: transparent;
+    border-radius: 8px;
+}
+
+.btn-isComplete {
+    background-color: #83ff40;
+    color: #1d5400;
+}
+
+.btn-isComplete:hover {
+    background-color: #1d5400;
+    color: #83ff40;
+}
+
+.btn-delete {
+    background-color: #ffc7c7;
+    color: #bf0000;
+}
+
+.btn-delete:hover {
+    background-color: #bf0000;
+    color: #ffc7c7;
+}
+
+.btn-edit {
+    background-color: white;
+    color: #1590ed;
+}
+
+.btn-edit:hover {
+    background-color: #1590ed;
+    color: white;
 }
