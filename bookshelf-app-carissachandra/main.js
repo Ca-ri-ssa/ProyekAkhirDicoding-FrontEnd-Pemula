@@ -124,6 +124,7 @@ function toggleBookCompletion(bookId) {
     if (book) {
         book.isComplete = !book.isComplete;
         document.dispatchEvent(new Event(RENDER_BOOKSHELF));
+        saveData();
     }
 }
 
